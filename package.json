@@ -1,0 +1,12 @@
+{
+  "name": "ts-node-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start1": "node -r ts-node/register src/app.ts",
+    "start2": "node -r ts-node/register/transpile-only src/app.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
